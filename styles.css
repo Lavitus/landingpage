@@ -13,7 +13,7 @@ body {
 .hero, 
 .footer {
     background: rgb(51,52,54);
-    background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgba(50,59,82,1) 50%, rgba(51,52,54,1) 100%);
+    background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgb(51, 58, 75) 50%, rgba(51,52,54,1) 100%);
 }
 
 .header {
