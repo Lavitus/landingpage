@@ -12,26 +12,27 @@ body {
 
 .hero, 
 .footer {
-    background-color: rgb(55, 57, 58);    
+    background-color: rgb(51, 52, 54);    
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;  
+    margin-bottom: 2vh;
 }
 
 .logo-text, h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: rgb(143, 23, 79);
     display: flex; 
-    padding-left: 10vw
+    margin-left: 10vw
 }
 
 .header-link {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     display: flex;
-    padding-right: 20vw
+    margin-right: 20vw
 }
 
 .header-link ul, a {
@@ -48,34 +49,55 @@ body {
     justify-content: space-between;
 }
 .hero-m-text, h2 {
-    font-size: 3.7rem;
+    font-size: 3.8rem;
     color: rgb(143, 23, 79);
     font-weight: 800;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    padding-left: 10vw;   
+    margin: 0 0 0 10vw;
     width: 20vw;
+    margin-bottom: 0;
 }
 
-.hero-sec-text {
-    font-size: 0.37em;
+.hero-sec-text{
+    font-size: 0.34em;
     color: rgba(143, 23, 79, 0.904);
-    display: inline-flex;
-    width: 24vw;
-    padding-left: 10vw;
+    display: flex;
+    width: 20vw;
+    margin-left: 10vw;
+    margin-top: 0.5vh;
+
+}
+
+.signUp-hero button {
+    display: flex;
+    margin-left: 10vw;
+    border-radius: 8px;
+    margin-top: 1.5vh;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 28px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(107, 121, 158);
+    color: rgb(255, 253, 253);
+
 }
 
 .placeholder {
     display: flex;
-    padding-right: 20vw;
+    margin-right: 20vw;
+    margin-top: 6vh;
 
     }
 
 
 
-.contentSource, .contentSource a, u b {
-    font-size: 1rem;
-    color: rgba(143, 23, 79, 0.904);
+.contentSource,   {
+    font-size: 1.2rem;
+    color: rgba(151, 29, 86, 0.952);
     font-weight: 700;
     display: flex; 
+    flex-wrap: wrap;
 }
