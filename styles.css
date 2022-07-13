@@ -12,7 +12,8 @@ body {
 
 .hero, 
 .footer {
-    background-color: rgb(51, 52, 54);    
+    background: rgb(51,52,54);
+    background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgba(50,59,82,1) 50%, rgba(51,52,54,1) 100%);
 }
 
 .header {
