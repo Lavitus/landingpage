@@ -48,12 +48,13 @@ body {
     justify-content: space-between;
 }
 .hero-m-text, h2 {
-    font-size: 3rem;
+    font-size: 3.7rem;
     color: rgb(143, 23, 79);
     font-weight: 800;
     display: flex;
     flex-direction: column;
     padding-left: 10vw;   
+    width: 12vw;
 }
 
 .hero-sec-text {
@@ -71,9 +72,9 @@ body {
 
 
 
-.contentSource {
-    font-size: 0.8rem;
+.contentSource, .contentSource a, u b {
+    font-size: 1rem;
     color: rgba(143, 23, 79, 0.904);
     font-weight: 700;
-    display: flex;    
+    display: flex; 
 }
