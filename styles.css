@@ -51,23 +51,24 @@ body {
     font-size: 3.7rem;
     color: rgb(143, 23, 79);
     font-weight: 800;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     padding-left: 10vw;   
-    width: 12vw;
+    width: 20vw;
 }
 
 .hero-sec-text {
-    font-size: 0.4em;
+    font-size: 0.37em;
     color: rgba(143, 23, 79, 0.904);
-    display: flex;
-    width: 20vw;
+    display: inline-flex;
+    width: 24vw;
     padding-left: 10vw;
 }
 
 .placeholder {
     display: flex;
     padding-right: 20vw;
+
     }
 
 
