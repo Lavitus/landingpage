@@ -3,10 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    
-}
-
-.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -48,6 +45,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 13.15vh;
 }
 .hero-m-text, h2 {
     font-size: 3.8rem;
@@ -70,35 +68,84 @@ body {
 
 }
 
-.signUp-hero button {
-    display: flex;
+.signUp-hero a {
+    display: inline-block;
     margin-left: 10vw;
     border-radius: 8px;
-    margin-top: 1.5vh;
     border: none;
     text-decoration: none;
     text-align: center;
-    padding: 8px 28px;
-    font-weight: 700;
-    font-size: 16px;
-    background-color: rgb(107, 121, 158);
+    padding: 0.8vh 1.7vw;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: rgb(97, 116, 168);
     color: rgb(255, 253, 253);
+}
 
+.signUp-hero {
+    display:flex;
+    margin-top: 1.5vh
 }
 
 .placeholder {
     display: flex;
     margin-right: 20vw;
     margin-top: 6vh;
-
-    }
-
-
-
-.contentSource,   {
+}
+.contentSource   {
     font-size: 1.2rem;
     color: rgba(151, 29, 86, 0.952);
     font-weight: 700;
     display: flex; 
     flex-wrap: wrap;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    padding-top: 0.5vh;
+    padding-bottom: 15vh;
+}
+
+.informationHeader h3 {
+    display: flex;
+    color:  rgb(51, 58, 75);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.informationBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5.5vw;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    width: 8vw;
+    align-content: center;
+}
+
+.infoBoxBorder {
+    display: flex;
+    width: 8.8vw;
+    height: 18vh;
+    border: 0.52vh solid rgb(107, 121, 158);
+    border-radius: 0.6vw;
+    
+}
+
+.infoBoxText {
+    display: flex;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.63);
+    width: 8.3vw;
+    height: 2vh;
+    margin-top: 0.6vh;
+    padding-left: 0.2vw;
 }
