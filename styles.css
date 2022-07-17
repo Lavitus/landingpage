@@ -28,7 +28,7 @@ body {
 }
 
 .header-link {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     display: flex;
     /* margin-right: 20vw; */
     text-decoration: underline;
@@ -61,12 +61,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 0 0 0vw;
-    max-width: 30.1vw;
+    max-width: 23.5vw;
     /* min-width: 0vw; */
 }
 
 .hero-m-text h2 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     color: rgb(143, 23, 79);
     font-weight: 800;
     display: flex;
@@ -75,12 +75,12 @@ body {
 }
 
 .hero-sec-text{
-    font-size: 0.34em;
+    font-size: 0.29em;
     color: rgba(143, 23, 79, 0.904);
     display: flex;
     /* min-width: 47vw; */
     /* margin-left: 3.5vw; */
-    margin-top: 1.7vh;
+    margin-top: 0.3vh;
     display: inline-block;
 }
 
@@ -91,7 +91,7 @@ body {
     border: none;
     text-decoration: none;
     text-align: center;
-    padding: 0.8vh 1.7vw;
+    padding: 0.6vh 1.7vw;
     font-weight: 600;
     font-size: 1.1rem;
     background-color: rgb(97, 116, 168);
@@ -107,14 +107,14 @@ body {
 .placeholder {
     display: flex;
     flex-direction: column;
-    width: 27vw;
-    padding-top: 1vh;
-    height: 25vh;
+    width: 20.7vw;
+    padding-top: 2vw;
+    height: 25.4vh;
 }
 
 .placeholder video {
-    /* display: flex; */
-    object-fit: contain;
+    display: flex;
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
@@ -150,29 +150,34 @@ body {
 .informationBox {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 4vw;
     /* margin-right: 4vw; */
+    width: 100vw;
 }
 
 .infoBox {
     display: flex;
     flex-direction: column;
-    width: 175px;
+    /* width: 20vw; */
     /* height: 19vh; */
-    align-content: center;
-    text-align: center;
+    /* align-content: center; */
+    /* text-align: center; */
+    /* max-width: 150px; */
+    /* max-height: 150px; */
 }
 
 .infoBoxBorder {
     display: flex;
-    /* width: 12vw; */
-    height: 15vh;
+    width: 11vw;
+    height: 9vw;
     border: 0.52vh solid rgb(107, 121, 158);
     border-radius: 0.6vw;
     overflow: hidden;
     background-color: rgb(107, 121, 158);
+    /* max-width: 150px; */
+    /* max-height: 150px; */
 }
 
 .infoBoxBorder img {
@@ -185,11 +190,11 @@ body {
     display: flex;
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.63);
-    height: 2vh;
+    height: 2vw;
     margin-top: 0.6vh;
     justify-content: center;
     text-align: center;
-    /* width: 10.4vw; */
+    width: 11.4vw;
 }
 
 
@@ -310,6 +315,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    max-width: max-content;
+    height: 62vw;
 }
 
 .sourceContent   {
@@ -344,22 +351,24 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 3vw;
     margin: 0 0 0 0;
 }
 
 .infoBox {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 22vw;
-    text-align: center;
+    /* align-content: center; */
+    /* width: 21vw; */
+    /* text-align: center; */
+    /* max-width: 90px; */
+    /* max-height: 90px; */
 }    
 
 .infoBoxBorder {
-    display: inline-flex;
-    width: 20vw;
-    height: 7.9vh;
+    display: flex;
+    width: 19.5vw;
+    height: 17.5vw;
     border: 0.52vh solid rgb(107, 121, 158);
     border-radius: 0.6vw;
     overflow: hidden;
@@ -375,9 +384,9 @@ body {
 .infoBoxText {
     display: flex;
     font-size: .72rem;
-    color: rgba(0, 0, 0, 0.63);
+    color: rgba(0, 0, 0, 0.72);
     width: 21vw;
-    /* height: 2vh; */
+    height: 2vw;
     margin-top: 0.6vh;
     justify-content: center;
     text-align: center;
