@@ -51,7 +51,7 @@ body {
     justify-content: space-between;
     padding-bottom: 13.15vh;
     margin: 0 18vw 0 18vw;
-    /* gap: 14.5vw; */
+    /* gap: 7.5vw; */
 }
 .hero-m-text {
     font-size: 3.6rem;
@@ -59,6 +59,7 @@ body {
     font-weight: 800;
     display: flex;
     flex-direction: column;
+    width: 34vw;
 }
 
 .hero-m-text h2 {
@@ -98,25 +99,29 @@ body {
 
 .placeholder {
     display: flex;
-    flex-direction: column;
-    width: 20.7vw;
-    margin-top: 4.3vh;
+    /* width: 20.7vw; */
+    margin-top: 4vh;
     height: 20vh;
 }
 
 .placeholder video {
     display: flex;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
 
 
 .sourceContent   {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
     flex-wrap: wrap;
     margin-top: 1.1vh;
+    display:  flex;
+}
+
+ .sourceContent b {
+  text-decoration: underline;
 }
 
 .information {
@@ -162,7 +167,7 @@ body {
 .infoBoxBorder {
     display: flex;
     width: 11vw;
-    height: 9vw;
+    height: 10vw;
     border: 0.52vh solid rgb(107, 121, 158);
     border-radius: 0.6vw;
     overflow: hidden;
@@ -250,20 +255,14 @@ body {
 }
 
 .placeholder {
-    display: flex;
-    flex-direction: column;
     width: 100vw;
     max-width: max-content;
-    height: 62vw;
+    height: auto;
 }
 
 .sourceContent   {
-    font-size: 1.2rem;
-    color: rgba(151, 29, 86, 0.952);
-    font-weight: 700;
-    display: flex;
     justify-content: center;
-    margin-top: 2.5vh;
+    padding-top: 3.5vh;
 }
 
 .information {
