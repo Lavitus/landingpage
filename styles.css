@@ -6,6 +6,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* text color red */
+.sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
+    color: rgb(143, 23, 79);
+}
+
 .hero, 
 .footer {
     background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgb(51, 58, 75) 50%, rgba(51,52,54,1) 100%);
@@ -21,7 +26,6 @@ body {
 
 .logo-text h1 {
     font-size: 2.1rem;
-    color: rgb(143, 23, 79);
     display: flex;
     /* margin-left: 9.6vw; */
 }
@@ -33,10 +37,9 @@ body {
     text-decoration: underline;
 }
 
-.header-link ul, a {
+.header-link ul, .header-link a {
     text-decoration: none;
     list-style-type: none;
-    color: rgb(143, 23, 79);
     gap: 1.4vw;
     display: flex;
     list-style-position: inside;
@@ -55,7 +58,6 @@ body {
 }
 .hero-m-text {
     font-size: 3.6rem;
-    color: rgb(143, 23, 79);
     font-weight: 800;
     display: flex;
     flex-direction: column;
@@ -64,7 +66,6 @@ body {
 
 .hero-m-text h2 {
     font-size: 3.2rem;
-    color: rgb(143, 23, 79);
     font-weight: 800;
     display: flex;
     flex-direction: column;
@@ -78,7 +79,7 @@ body {
     display: flex;
 }
 
-.signUp-hero a {
+.signUp-button  {
     display: flex;
     border-radius: 8px;
     border: none;
@@ -89,11 +90,7 @@ body {
     font-size: 1.1rem;
     background-color: rgb(97, 116, 168);
     color: rgb(255, 253, 253);
-}
-
-.signUp-hero {
-    display:
-    flex;
+    width: fit-content;
     margin-top: 0.7vh;
 }
 
@@ -129,7 +126,7 @@ body {
     align-items: center;
     background-color: white;
     flex-direction: column;
-    padding-top: 1.5vh;
+    padding-top: 2vh;
     padding-bottom: 15vh;
     /* padding-left:; */
 }
@@ -198,11 +195,25 @@ body {
     font-weight: lighter;
     width: 49vw;
     color: rgb(51, 58, 75);
-    padding-top: 25vh;
+    padding-top: 30vh;
     font-style: italic;
 }
 
-.infoQuote span {font-weight: bold;float: right;font-size: 0.78em;padding-right: 2vw;}
+.infoQuote span {
+    font-weight: bold;
+    float: right;
+    font-size: 0.69em;
+    padding-right: 2vw;
+    font-style: normal;
+}
+
+.callToAction {
+    background-color: rgb(107, 121, 158);
+    /* display: flex; */
+    width: 63.717vw;
+    height: 15.513vh;
+    border-radius: 0.6vw;
+}
 
 
 @media screen and (max-width:720px) {
@@ -213,7 +224,6 @@ body {
 
     .logo-text, h1 {
     font-size: 2rem;
-    color: rgb(143, 23, 79);
     display: flex;
     margin-left: 0vw;
     justify-content: center;
@@ -234,7 +244,6 @@ body {
 .header-link ul, a {
     text-decoration: none;
     list-style-type: none;
-    color: rgb(143, 23, 79);
     gap: 0vh 3.4vw;
     display: flex;
     text-align: center;
