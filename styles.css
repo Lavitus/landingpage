@@ -6,11 +6,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* text color red */
-.callToAction, .sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
-    color: rgb(143, 23, 79);
-}
-
 .hero, 
 .footer {
     background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgb(51, 58, 75) 50%, rgba(51,52,54,1) 100%);
@@ -87,7 +82,7 @@ body {
     padding: 0.6vh 1.7vw;
     font-weight: 600;
     font-size: 1.1rem;
-    background-color: rgb(116 130 167);
+    background-color: rgb(108 120 145);
     color: rgb(255, 253, 253);
     width: fit-content;
     margin-top: 1vh;
@@ -164,10 +159,10 @@ body {
     display: flex;
     width: 11vw;
     height: 10vw;
-    border: 0.52vh solid rgb(116 130 167);
+    border: 0.52vh solid rgb(108 120 145);
     border-radius: 0.6vw;
     overflow: hidden;
-    background-color: rgb(116 130 167);
+    background-color: rgb(108 120 145);
     max-width: 300px;
     max-height: 250px;
 }
@@ -191,26 +186,26 @@ body {
 
 .infoQuote {
     /* display: flex; */
-    font-size: 2.1rem;
+    font-size: 2.15rem;
     font-weight: lighter;
-    width: 50vw;
+    /* width: 51vw; */
     color: rgb(51, 58, 75);
     padding-top: 25vh;
     padding-bottom: 25vh;
     font-style: italic;
-    /* max-width: 900px; */
+    max-width: 53vw;
 }
 
 .infoQuote span {
     font-weight: bold;
     float: right;
     font-size: 0.83em;
-    padding-right: 4vw;
+    padding-right: 2vw;
     font-style: normal;
 }
 
 .callToAction {
-    background-color: rgb(116 130 167);
+    background-color: rgb(108 120 145);
     /* display: flex; */
     width: 63.717vw;
     height: 19.013vh;
@@ -221,6 +216,10 @@ body {
     justify-content: space-between;
 }
 
+/* text color red */
+.footer a, .callToAction, .sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
+    color: rgb(143, 23, 79);
+}
 
 @media screen and (max-width: 720px) {
 .header {
