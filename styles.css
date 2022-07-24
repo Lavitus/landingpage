@@ -188,18 +188,18 @@ body {
     /* display: flex; */
     font-size: 2.15rem;
     font-weight: lighter;
-    /* width: 51vw; */
+    width: 55vw;
     color: rgb(51, 58, 75);
     padding-top: 25vh;
     padding-bottom: 25vh;
     font-style: italic;
-    max-width: 53vw;
+    max-width: 900px;
 }
 
 .infoQuote span {
     font-weight: bold;
     float: right;
-    font-size: 0.83em;
+    font-size: 0.73em;
     padding-right: 2vw;
     font-style: normal;
 }
@@ -214,6 +214,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.cTA-left {
+    margin-left: 5.5vw;
+    font-size: 1.55rem;
+}
+
+.callToAction .signUp-button {
+    margin: 0 5.5vw 0 0;
+    border: 0.32vh solid rgb(143, 23, 79);
+}
+
+.cTA-left span {
+    font-size: 0.78em;
+}
+
+.footer {
+    height: 9.736vh;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
 }
 
 /* text color red */
@@ -232,6 +259,7 @@ body {
     display: flex;
     margin-left: 0vw;
     justify-content: center;
+    text-align: center;
 }
 
 .header-link {
@@ -357,5 +385,13 @@ body {
 .infoQuote, .infoQuote span {
     text-align: center;
     float: none;
-}    
+} 
+
+.callToAction {
+    width: auto;
+}
+
+.cTA-left {
+    font-size: 1px;
+}
 }  
