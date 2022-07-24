@@ -7,7 +7,7 @@ body {
 }
 
 /* text color red */
-.sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
+.callToAction, .sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
     color: rgb(143, 23, 79);
 }
 
@@ -82,23 +82,23 @@ body {
 .signUp-button  {
     display: flex;
     border-radius: 8px;
-    border: none;
     text-decoration: none;
     text-align: center;
     padding: 0.6vh 1.7vw;
     font-weight: 600;
     font-size: 1.1rem;
-    background-color: rgb(97, 116, 168);
+    background-color: rgb(116 130 167);
     color: rgb(255, 253, 253);
     width: fit-content;
-    margin-top: 0.7vh;
+    margin-top: 1vh;
+    border: none;
 }
 
 .placeholder {
     display: flex;
     /* width: 20.7vw; */
     margin-top: 4vh;
-    height: 20vh;
+    height: 21vh;
 }
 
 .placeholder video {
@@ -164,10 +164,10 @@ body {
     display: flex;
     width: 11vw;
     height: 10vw;
-    border: 0.52vh solid rgb(107, 121, 158);
+    border: 0.52vh solid rgb(116 130 167);
     border-radius: 0.6vw;
     overflow: hidden;
-    background-color: rgb(107, 121, 158);
+    background-color: rgb(116 130 167);
     max-width: 300px;
     max-height: 250px;
 }
@@ -193,33 +193,36 @@ body {
     /* display: flex; */
     font-size: 2.1rem;
     font-weight: lighter;
-    /* width: 49vw; */
+    width: 50vw;
     color: rgb(51, 58, 75);
     padding-top: 25vh;
     padding-bottom: 25vh;
     font-style: italic;
-    max-width: 62vw;
-    min-width: fit-content;
+    /* max-width: 900px; */
 }
 
 .infoQuote span {
     font-weight: bold;
     float: right;
-    font-size: 0.69em;
-    /* padding-right: 2vw; */
+    font-size: 0.83em;
+    padding-right: 4vw;
     font-style: normal;
 }
 
 .callToAction {
-    background-color: rgb(107, 121, 158);
+    background-color: rgb(116 130 167);
     /* display: flex; */
     width: 63.717vw;
-    height: 18.513vh;
+    height: 19.013vh;
     border-radius: 0.6vw;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
 .header {
     flex-direction:
     column;
@@ -351,5 +354,9 @@ body {
     text-align: center;
     /* margin-right: 8vw; */
 }
-    
+
+.infoQuote, .infoQuote span {
+    text-align: center;
+    float: none;
+}    
 }  
