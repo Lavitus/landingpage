@@ -6,11 +6,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* text color red */
-.sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
-    color: rgb(143, 23, 79);
-}
-
 .hero, 
 .footer {
     background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgb(51, 58, 75) 50%, rgba(51,52,54,1) 100%);
@@ -25,7 +20,7 @@ body {
 }
 
 .logo-text h1 {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     display: flex;
     /* margin-left: 9.6vw; */
 }
@@ -62,10 +57,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 34vw;
+    /* height: 22vh; */
 }
 
 .hero-m-text h2 {
-    font-size: 3.2rem;
+    font-size: 3.3rem;
     font-weight: 800;
     display: flex;
     flex-direction: column;
@@ -73,7 +69,7 @@ body {
 }
 
 .hero-sec-text{
-    font-size: 0.29em;
+    font-size: 0.33em;
     color: rgba(143, 23, 79, 0.904);
     margin-top: 0.3vh;
     display: flex;
@@ -85,7 +81,7 @@ body {
     border: none;
     text-decoration: none;
     text-align: center;
-    padding: 0.6vh 1.7vw;
+    padding: 0.7vh 1.7vw;
     font-weight: 600;
     font-size: 1.1rem;
     background-color: rgb(97, 116, 168);
@@ -98,7 +94,7 @@ body {
     display: flex;
     /* width: 20.7vw; */
     margin-top: 4vh;
-    height: 20vh;
+    height: 22vh;
 }
 
 .placeholder video {
@@ -133,7 +129,6 @@ body {
 
 .informationHeader h3 {
     display: flex;
-    color:  rgb(51, 58, 75);
     font-size: 2.6rem;
     font-weight: 800;
     margin: 3vh 18vw 5vh 18vw;
@@ -193,7 +188,7 @@ body {
     /* display: flex; */
     font-size: 2.1rem;
     font-weight: lighter;
-    width: 49vw;
+    width: 50vw;
     color: rgb(51, 58, 75);
     padding-top: 30vh;
     font-style: italic;
@@ -215,6 +210,15 @@ body {
     border-radius: 0.6vw;
 }
 
+/* text color red */
+.sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
+    color: rgb(143, 23, 79);
+}
+
+.informationHeader h3, .infoQuote {
+    color: rgb(51, 58, 75);
+}
+
 
 @media screen and (max-width:720px) {
 .header {
@@ -225,8 +229,9 @@ body {
     .logo-text, h1 {
     font-size: 2rem;
     display: flex;
-    margin-left: 0vw;
+    /* margin-left: 4vw; */
     justify-content: center;
+    text-align: center;
 }
 
 .header-link {
@@ -259,10 +264,11 @@ body {
 .hero-m-text {
     align-items: center;
     text-align: center;
+    width: auto;
 }
 
 .hero-m-text h2 {
-    width: 35.6vw;
+    width: 70vw;
 }
 
 .signUp-hero {
@@ -295,8 +301,6 @@ body {
 }
 
 .informationHeader h3 {
-    display: flex;
-    color:  rgb(51, 58, 75);
     font-size: 2.5rem;
     font-weight: 800;
     padding-left: 3vw;
@@ -348,5 +352,27 @@ body {
     text-align: center;
     /* margin-right: 8vw; */
 }
+
+.infoQuote {
+    width: 81vw;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 20vh;
+}
+
+.infoQuote span {
+    font-weight: bold;
+    float: right;
+    font-size: 0.69em;
+    padding-right: 2vw;
+    font-style: normal;
+}
+
+.callToAction {
+    background-color: rgb(107, 121, 158);
+    /* display: flex; */
+    width: 63.717vw;
+    height: 15.513vh;
+    border-radius: 0.6vw;
     
 }  
