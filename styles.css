@@ -11,12 +11,19 @@ body {
     background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgb(51, 58, 75) 50%, rgba(51,52,54,1) 100%);
 }
 
+.header-top-space {
+    padding-top: 2.5vh;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* gap: 9vw; */
     margin: 0 18vw 2vh 18vw;
+    border-bottom: 1.3px solid rgba(143, 23, 79, 0.541);
+    border-top: 1.3px solid rgba(143, 23, 79, 0.541);
+
 }
 
 .logo-text h1 {
