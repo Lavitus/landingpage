@@ -223,7 +223,8 @@ body {
 
 .callToAction .signUp-button {
     margin: 0 5.5vw 0 0;
-    border: 0.32vh solid rgb(143, 23, 79);
+    border: 3px solid rgb(143, 23, 79);
+    white-space: nowrap;
 }
 
 .cTA-left span {
@@ -244,7 +245,8 @@ body {
 }
 
 /* text color red */
-.footer a, .callToAction, .sourceContent, .logo-text h1, .header-link ul, .header-link a, .hero-m-text h2, .hero-m-text {
+.footer a, .callToAction, .sourceContent, .logo-text h1, .header-link ul, 
+.header-link a, .hero-m-text h2, .hero-m-text {
     color: rgb(143, 23, 79);
 }
 
@@ -296,6 +298,10 @@ body {
 
 .hero-m-text h2 {
     width: 69.6vw;
+}
+
+.signUp-button  {
+    font-size: 1rem;
 }
 
 .signUp-hero {
@@ -392,6 +398,6 @@ body {
 }
 
 .cTA-left {
-    font-size: 1px;
+    font-size: 1em;
 }
 }  
