@@ -29,6 +29,10 @@ body {
     color: white;
 }
 
+.hero {
+    margin-top: 2vw;
+}
+
 .hero-container {
     display: flex;
     align-items: center;
@@ -281,4 +285,5 @@ body {
 .callToAction {
     width: 94vw;
     max-height: 130px;
+}
 }
