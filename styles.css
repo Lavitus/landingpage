@@ -117,7 +117,7 @@ body {
     margin-top: 5vh;
     grid-template-columns: repeat(4, 2fr);
     outline-width: thick;
-    grid-gap: 4.2vw;
+    grid-gap: 3.8vw;
 }
 
 .infoBox {
@@ -128,12 +128,14 @@ body {
 }
 
 .infoBoxBorder {
-    width: 12.4vw;
+    width: 12.6vw;
     height: 11.7vw;
-    border: 5px solid rgb(108 120 145);
+    border: 0.6vh solid rgb(108 120 145);
     border-radius: 0.6vw;
     overflow: hidden;
     background-color: rgb(108 120 145);
+    max-height: 300px;
+    max-width: 330px;
 }
 
 .infoBoxBorder img {
@@ -143,7 +145,7 @@ body {
 }
 
 .infoBoxText {
-    font-size: clamp(0.77rem, 1.2vw, 1.45rem);
+    font-size: clamp(0.57rem, 2.1vw, 1.45rem);
     color: rgba(0, 0, 0, 0.63);
     margin-top: 0.6vh;
     text-align: center;
@@ -211,7 +213,7 @@ body {
     color: rgb(226 14 84);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
 .header {
     flex-direction:
     column;
@@ -265,7 +267,7 @@ body {
     margin-right: 1vw;
 }
     
-    .informationHeader h3 {
+.informationHeader h3 {
     display: flex;
     color:  rgb(51, 58, 75);
     font-size: 2.5rem;
@@ -275,6 +277,12 @@ body {
     
 .informationBox {
     margin-top: unset;
+}
+
+.infoBoxBorder {
+    border-width: 0.4vh;
+    width: 20vw;
+    height: 18vw;
 }
 
 .infoQuote, .infoQuote span {
