@@ -1,104 +1,75 @@
 body {
     margin: 0;
     padding: 0;
-    /* display: flex; */
-    /* flex-direction: column; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.hero, 
-.footer {
-    background: linear-gradient(90deg, rgba(51,52,54,1) 0%, rgb(51, 58, 75) 50%, rgba(51,52,54,1) 100%);
-}
-
-.header-top-space {
-    padding-top: 2.5vh;
+    background: linear-gradient(90deg, rgb(3 16 42) 0%, rgb(51, 58, 75) 50%, rgb(3 16 42) 100%);
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 9vw; */
-    margin: 0 18vw 2vh 18vw;
-    border-bottom: 1.3px solid rgba(143, 23, 79, 0.541);
-    border-top: 1.3px solid rgba(143, 23, 79, 0.541);
-
+    margin: 0 17.5vw 2vh 17.5vw;
+    border-bottom: 2px solid rgba(143, 23, 79, 0.541);
+    border-top: 2px solid rgba(143, 23, 79, 0.541);
 }
 
-.logo-text h1 {
-    font-size: 2.1rem;
-    display: flex;
-    /* margin-left: 9.6vw; */
+.logo-text {
+    font-size: clamp(1.7rem, 4vw, 3rem);
 }
 
 .header-link {
-    font-size: 1.25rem;
-    display: flex;
-    /* margin-right: 20vw; */
-    text-decoration: underline;
-}
-
-.header-link ul, .header-link a {
-    text-decoration: none;
+    font-size: clamp(1rem, 1.1vw, 1.6rem);
     list-style-type: none;
-    gap: 1.4vw;
+    gap: 1.7vw;
     display: flex;
     list-style-position: inside;
     margin-left: 0;
     padding-left: 0;
+    color: white;
 }
 
 .hero-container {
-    display:
-    flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 13.15vh;
-    margin: 0 18vw 0 18vw;
-    /* gap: 7.5vw; */
+    margin: 0 17.5vw 0 17.5vw;
 }
 .hero-m-text {
-    font-size: 3.6rem;
-    font-weight: 800;
     display: flex;
     flex-direction: column;
     width: 34vw;
 }
 
 .hero-m-text h2 {
-    font-size: 3.2rem;
-    font-weight: 800;
-    display: flex;
+    font-size: clamp(1.8rem, 2.1vw, 2.65rem);
     flex-direction: column;
-    margin: 0 0 0 0vw;
+    margin: 0 0 0 0;
 }
 
 .hero-sec-text{
-    font-size: 0.29em;
-    color: rgba(143, 23, 79, 0.904);
+    font-size: clamp(1rem, 1.1vw, 1.45rem);
+    color: rgb(255 255 255 / 94%);
     margin-top: 0.3vh;
-    display: flex;
 }
 
 .signUp-button  {
-    display: flex;
-    border-radius: 8px;
+    border-radius: 1vw;
     text-decoration: none;
     text-align: center;
     padding: 0.6vh 1.7vw;
     font-weight: 600;
-    font-size: 1.1rem;
-    background-color: rgb(108 120 145);
+    background-color: rgb(149 38 81);
     color: rgb(255, 253, 253);
     width: fit-content;
-    margin-top: 1vh;
-    border: none;
+    margin-top: 2vh;
+    border: 0.35vw solid rgb(143, 23, 79);
+    font-size: clamp(0.7rem, 2vw, 1.4rem);
 }
 
 .placeholder {
     display: flex;
-    /* width: 20.7vw; */
     margin-top: 4vh;
     height: 21vh;
 }
@@ -124,54 +95,41 @@ body {
 
 .information {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: white;
     flex-direction: column;
-    padding-top: 2vh;
+    padding-top: 7vh;
     padding-bottom: 15vh;
-    /* padding-left:; */
 }
 
-.informationHeader h3 {
-    display: flex;
+.informationHeader {
     color:  rgb(51, 58, 75);
-    font-size: 2.6rem;
-    font-weight: 800;
+    font-size: clamp(1rem, 5vw, 2.6rem);
     margin: 3vh 18vw 5vh 18vw;
     text-align: center;
 }
 .informationBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4vw;
-    /* margin-right: 4vw; */
-    /* width: 100vw; */
+    display: grid;
+    margin-top: 5vh;
+    grid-template-columns: repeat(4, 2fr);
+    outline-width: thick;
+    grid-gap: 4.2vw;
 }
 
 .infoBox {
     display: flex;
     flex-direction: column;
-    width: auto;
-    /* height: 20vh; */
-    /* align-content: center; */
-    /* text-align: center; */
-    max-width: fit-content;
-    /* max-height: 150px; */
+    width: min-content;
+    align-items: center;
 }
 
 .infoBoxBorder {
-    display: flex;
-    width: 11vw;
-    height: 10vw;
-    border: 0.52vh solid rgb(108 120 145);
+    width: 12.4vw;
+    height: 11.7vw;
+    border: 5px solid rgb(108 120 145);
     border-radius: 0.6vw;
     overflow: hidden;
     background-color: rgb(108 120 145);
-    max-width: 300px;
-    max-height: 250px;
 }
 
 .infoBoxBorder img {
@@ -181,26 +139,21 @@ body {
 }
 
 .infoBoxText {
-    display: flex;
-    font-size: 1rem;
+    font-size: clamp(0.77rem, 1.2vw, 1.45rem);
     color: rgba(0, 0, 0, 0.63);
-    height: 2vw;
     margin-top: 0.6vh;
-    justify-content: center;
     text-align: center;
-    /* width: 11.6vw; */
 }
 
 .infoQuote {
-    /* display: flex; */
-    font-size: 2.15rem;
     font-weight: lighter;
-    width: 55vw;
     color: rgb(51, 58, 75);
-    padding-top: 25vh;
-    padding-bottom: 25vh;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
     font-style: italic;
-    max-width: 900px;
+    max-width: 1100px;
+    font-size: clamp(0.73rem, 2.9vw, 2.6rem);
+    text-align: center;
 }
 
 .infoQuote span {
@@ -213,10 +166,9 @@ body {
 
 .callToAction {
     background-color: rgb(108 120 145);
-    /* display: flex; */
     width: 63.717vw;
-    height: 19.013vh;
-    border-radius: 0.6vw;
+    height: 21.013vh;
+    border-radius: 0.7vw;
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -224,23 +176,23 @@ body {
 }
 
 .cTA-left {
-    margin-left: 5.5vw;
-    font-size: 1.55rem;
+    margin-left: 4.5vw;
+    font-size: clamp(1rem, 2.1vw, 2rem);
+    color: white;
 }
 
 .callToAction .signUp-button {
-    margin: 0 5.5vw 0 0;
-    border: 3px solid rgb(143, 23, 79);
+    margin: 0 4vw 0 2.64vw;
     white-space: nowrap;
 }
 
 .cTA-left span {
-    font-size: 0.78em;
+    font-size: 0.70em;
 }
 
 .footer {
-    height: 9.736vh;
-    font-size: 1.2rem;
+    height: 9.136vh;
+    font-size: clamp(0.9rem, 0.9vw, 1.5rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,64 +203,38 @@ body {
     text-decoration: none;
 }
 
-/* text color red */
-.footer a, .callToAction, .sourceContent, .logo-text h1, .header-link ul, 
-.header-link a, .hero-m-text h2, .hero-m-text {
-    color: rgb(143, 23, 79);
+.callToAction, .sourceContent, a, .hero-m-text, .logo-text {
+    color: rgb(226 14 84);
 }
 
 @media screen and (max-width: 720px) {
 .header {
     flex-direction:
     column;
+    margin-right: 7vw;
+    margin-left: 7vw;
 }
 
-    .logo-text, h1 {
-    font-size: 2rem;
-    display: flex;
-    margin-left: 0vw;
-    justify-content: center;
+.logo-text, h1 {
     text-align: center;
+    width: -webkit-fill-available;
+    margin-bottom: 0;
 }
 
 .header-link {
-    font-size: 1.3rem;
-    display: flex;
-    /* margin-right: 6vw; */
-    justify-content: center;
-    text-decoration: underline;
-    text-align: center;
-    /* margin-left: auto; */
-    /* margin-right:
-    auto; */
-}
-
-.header-link ul, a {
-    text-decoration: none;
-    list-style-type: none;
-    gap: 0vh 3.4vw;
-    display: flex;
-    text-align: center;
-    list-style-position: inside;
-    margin-left: 0;
-    padding-left: 0;
+    gap: 3.5vw;
 }
 
 .hero-container {
     flex-direction: column;
+    justify-content: unset;
+    margin: 0;
 }
 
 .hero-m-text {
     align-items: center;
     text-align: center;
-}
-
-.hero-m-text h2 {
-    width: 69.6vw;
-}
-
-.signUp-button  {
-    font-size: 1rem;
+    width: fit-content;
 }
 
 .signUp-hero {
@@ -330,17 +256,12 @@ body {
     padding-top: 3.5vh;
 }
 
-.information {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    flex-direction: column;
-    padding-top: 0.5vh;
-    padding-bottom: 15vh;
+.informationHeader {
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
-
-.informationHeader h3 {
+    
+    .informationHeader h3 {
     display: flex;
     color:  rgb(51, 58, 75);
     font-size: 2.5rem;
@@ -349,62 +270,15 @@ body {
 }
     
 .informationBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3vw;
-    margin: 0 0 0 0;
-}
-
-.infoBox {
-    display: flex;
-    flex-direction: column;
-    /* align-content: center; */
-    /* width: 21vw; */
-    /* text-align: center; */
-    /* max-width: 90px; */
-    /* max-height: 90px; */
-}    
-
-.infoBoxBorder {
-    display: flex;
-    width: 19.5vw;
-    height: 17.5vw;
-    border: 0.52vh solid rgb(107, 121, 158);
-    border-radius: 0.6vw;
-    overflow: hidden;
-    background-color: rgb(107, 121, 158);
-}
-
-.infoBoxBorder img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.infoBoxText {
-    display: flex;
-    font-size: .72rem;
-    color: rgba(0, 0, 0, 0.72);
-    width: 21vw;
-    height: 2vw;
-    margin-top: 0.6vh;
-    justify-content: center;
-    text-align: center;
-    /* margin-right: 8vw; */
+    margin-top: unset;
 }
 
 .infoQuote, .infoQuote span {
-    text-align: center;
-    float: none;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 } 
 
 .callToAction {
-    width: auto;
+    width: 94vw;
+    max-height: 130px;
 }
-
-.cTA-left {
-    font-size: 1em;
-}
-}  
